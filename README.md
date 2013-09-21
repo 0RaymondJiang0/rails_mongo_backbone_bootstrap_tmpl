@@ -1,7 +1,8 @@
 # RailsMongoBackboneBootstrapTmpl
 
-
-TODO: Write a gem description
+Auto create a rails app based on MongoDB, BackboneJS, Bootstrap CSS .   
+ 
+Let you be a professional Rails programmer only one minute !
 
 ## Installation
 
@@ -18,12 +19,6 @@ Or install it yourself as:
     $ gem install rails_mongo_backbone_bootstrap_tmpl
 
 ## Usage
-
-Run below command to create new rails app:   
-	rmbb_generator new YOUR_APP_NAME -p "YOUR APP WILL BE PLACEED PATH"
-Run below command to view help:  
-	rmbb_generator help  
-	rmbb_generator help new
 	
 	Usage:
 		rmbb_generator new
@@ -34,6 +29,21 @@ Run below command to view help:
 		-r, [--rvmrc=RVMRC]        # create .rvmrc file with rvmrc string value
 
 	Auto create new rails app based on mongo , devise, backboneJs, bootstrap
+
+	Sample:  
+	1. To create new rails app and place it to current user home path.  
+		 rmbb_generator new YOUR_APP_NAME -p "~/"  
+
+	2. To create new rails app and using a special db name.   
+		 rmbb_generator new YOUR_APP_NAME -p "~/" -d "YOUR_DB_NAME"  
+
+	3. To create new rails app and using a special rmv gemset.  
+		 rmbb_generator new YOUR_APP_NAME -p "~/" -d "YOUR_DB_NAME" -r "rvm use YOUR_RUBY_VERSION_xxx@GEM_SET_NAME"  
+
+	Last: 
+	1. cd to new app path. (Before do this, i suggest you to create a independent gemset for this new app, then add a .rvmrc file to this app path.) 
+	2. run 'bundle install' and install all gems.  
+	3. run 'rails s' to start your professional rails journey. 
 
 ## Contributing
 
