@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_mongo_backbone_bootstrap_tmpl (0.0.2)
+    rails_mongo_backbone_bootstrap_tmpl (0.0.3)
       thor
 
 GEM
