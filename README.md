@@ -1,8 +1,9 @@
-# RailsMongoBackboneBootstrapTmpl
+##Auto generate rails project based on mongo, backboneJs, bootstrap css. 
+<a href="http://www.mongodb.org/downloads"><img src="http://media.mongodb.org/logo-mongodb.png" style="width: 200px; height: 80px;"/></a>   
+<a href="http://backbonejs.org/"><img src="http://backbonejs.org/docs/images/backbone.png" style="width: 270px; height: 50px;"/></a>  
+<h5><a href="http://getbootstrap.com/">Bootstrap 3.0x</a></h5>   
 
-Auto create a rails app based on MongoDB, BackboneJS, Bootstrap CSS .   
- 
-Let you be a professional Rails programmer only one minute !
+Let you become a professional Rails programmer only one minute !   
 
 ## Installation
 
