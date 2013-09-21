@@ -20,6 +20,8 @@ module RailsMongoBackboneBootstrapTmpl
 			app_whole_path = "#{File.expand_path(app_path,__FILE__)}/#{app_name}"
 			template_path = File.expand_path('../../template',__FILE__)
 
+			say "Your app name will be : #{app_name} , path to : #{app_whole_path} \n"
+
 			db_name = options[:db_name] || app_name.downcase
 		  if Dir.exists? app_whole_path
 				result = ask "#{app_whole_path} existed ! Are you overwritten it ? [yes/no]"

@@ -1,6 +1,6 @@
-##Auto generate rails project based on [mongo](http://www.mongodb.org/), [backboneJs](http://backbonejs.org/), [bootstrap css](http://getbootstrap.com/).    
+##Auto generate professional rails project based on [mongo](http://www.mongodb.org/), [backboneJs](http://backbonejs.org/), [bootstrap css](http://getbootstrap.com/).    
 
-Let you become a professional Rails programmer only one minute !   
+Let you become a professional rails programmer only one minute !   
 
 ## Installation
 
@@ -28,7 +28,7 @@ Or install it yourself as:
 
 	Auto create new rails app based on mongo , devise, backboneJs, bootstrap
 
-	Sample:  
+	Start with any below sample:  
 	1. To create new rails app and place it to current user home path.  
 		 rmbb_generator new YOUR_APP_NAME -p "~/"  
 
@@ -40,7 +40,7 @@ Or install it yourself as:
 
 	Last: 
 	1. cd to new app path. (Before do this, i suggest you to create a independent gemset for this new app, then add a .rvmrc file to this app path.) 
-	2. run 'bundle install' and install all gems.  
+	2. run 'bundle install' and install all gems. （You can go to a cup of coffee）  
 	3. run 'rails s' to start your professional rails journey. 
 
 ## Contributing
