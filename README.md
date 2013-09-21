@@ -19,7 +19,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run below command to create new rails app:   
+	rmbb_generator new YOUR_APP_NAME -p "YOUR APP WILL BE PLACEED PATH"
+Run below command to view help:  
+	rmbb_generator help  
+	rmbb_generator help new
+	
+	Usage:
+		rmbb_generator new
+
+	Options:
+		-p, [--app-path=APP_PATH]  # where you want your rails application placed to
+		-d, [--db-name=DB_NAME]    # set database name
+		-r, [--rvmrc=RVMRC]        # create .rvmrc file with rvmrc string value
+
+	Auto create new rails app based on mongo , devise, backboneJs, bootstrap
 
 ## Contributing
 
