@@ -39,7 +39,8 @@ Or install it yourself as:
 		 rmbb_generator new YOUR_APP_NAME -p "~/" -d "YOUR_DB_NAME" -r "rvm use YOUR_RUBY_VERSION_xxx@GEM_SET_NAME"  
 
 	Last: 
-	1. cd to new app path. (Before do this, i suggest you to create a independent gemset for this new app, then add a .rvmrc file to this app path.) 
+	1. cd to new app path.   
+		 (Before do this, I suggest you to create a independent [gemset](http://rvm.io/gemsets) use [rvm](https://rvm.io/) for this new app, then add a .rvmrc file to this app directory.) 
 	2. run 'bundle install' and install all gems. （You can go to a cup of coffee）  
 	3. run 'rails s' to start your professional rails journey. 
 
